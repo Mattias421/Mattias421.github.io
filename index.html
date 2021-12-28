@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mattias Cross</title>
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+</head>
+
+<header>
+  <div class="container">
+      <div class= "toggle">
+        <i class="fa fa-bars menu"></i>
+        <h1> <a href="index.html">Mattias Cross </a></h1>
+      </div>
+      <div id= branding>
+          <h1> <a href="index.html">Mattias Cross </a></h1>
+      </div>
+      <nav>
+
+        <ul>
+			      <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+      <script type="text/javascript">
+        $(document).ready(function(){
+          $('.menu').click(function(){
+            $('ul').toggleClass('active')
+          })
+        })
+      </script>
+  </div >
+</header>
+
+<div id=top>
+<body id="aboutbody">
+    <section id = "display">
+        <div class = "container" >
+            <h1> Computer scientist </h1>
+            <p> Hello, my name is Mattias.</p>
+			      <a href="Mattias_Cross_CV.pdf" download="Mattias_Cross_CV.pdf">Download CV</a>
+        </div>	
+    </section>
+	<div id="projects">
+        <section id="display">
+          <h1> Projects </h1>
+          <div>           
+			      <h2>An immune inspired algorithm for fault tolerant multimodal machine learning</h2>
+            <img src="./images/nr1.gif" alt="detectors"  width="250" />
+            <img src="./images/nr10.gif" alt="detectors"  width="250" />
+            <img src="./images/nr100.gif" alt="detectors"  width="250" />
+            <img src="./images/nr400.gif" alt="detectors"  width="250" />
+            <p>The animations above show the generation an artifial immune system for multimodal exercise logging data. 
+              The goal is for the detectors (red) to encompass space where clean data (green) may pertubate if the input device experiences noise.
+              This increases the fault tolerance of multimodal machine learning models for automatic exercise logging 
+              (such as <a href="https://mmfit.github.io">mmfit</a>). This project was published at the IEEE BIBM 2021 conference workshop: 
+              Machine Learning and Artificial Intelligence in Bioinformatics and Medical Informatics (<a href="https://computing.ulster.ac.uk/ZhengLab/MABM2021/">MABM 2021</a>)
+			    
+		      </div>
+          <div>
+            <h2>Stanford ilabs RPi project</h2>
+            <img src="./images/cctv closeup.jpg" alt="rpi image"  width="500" />
+            <p>
+              Employed by the University of Sheffield's faculty of engineering, this project aims to provide a framework for creating digital portable lab experiments. 
+              Our methodology involves using multiple high quality cameras each controlled by a Raspberry Pi. The above image is a fun test photo.
+              This allows a user to to log into a server which prompts for the value of each experiment variable at its current state. 
+              Each camera then takes a labeled photo and stores it on the server and updates a csv file with the variables and photo labels.
+              Capturing expriment photos in such an organised manner enables a user to produce a detailed record of the experiment which can be shared online, 
+              aiding other researchers in reproducing experiments accurately.
+            </p>
+          </div>
+          <div>
+            <h2>Software hut</h2>
+            <p>
+              Part of completing an MComp computer science requires passing the module "software hut". As a team of 5 computer science students, 
+              a web app was developed that allows linguists to create unubiquitous questionares. The difference is that these questionares contain many sound related questionares
+              e.g. "click when you hear Sheffield dialect". The web app is also used to to log the questionare answers and share them with sub users who can edit the questionare if given permission.
+              The web app was made under the request of a real client unfamiliar with the software development process.
+            </p>
+          </div>
+          <div>
+            <h2>Engineering - you're hired</h2>
+            <img src="./images/average flight.png" alt="flight image"  width="500" />
+            <p>
+              Another requirement of the MComp is a week-long multidisiplinery design project. This involved proposing a method for electric hybrid plane to decrease the impact of air polution from aircrafts. 
+              The solution was to use fuel for take off and use battery power elsewhere for the most common flight path (Seoul - Jeju). After presenting our research and development outline, our team received a distinction.
+            </p>
+          </div>
+        </section>
+      </div>
+      <div id="education">
+        <section id="display">
+          <h1>Education</h1>
+          <div>
+            <h2>University of Sheffield</h2>
+            <p>
+            Studying an MComp at Sheffield requires a broad span of fundamental knowledge and skills. 
+            Covering both theoretical and practical elements of computer science, the modules learned form a solid foundation for solving a wide range of problems related to computer science.
+            Naturally, many programming languages are taught throughout the course. This forms a versatile tool kit that can be applied to 
+            tasks ranging from software engineering to artificial intelligence. At the University of Sheffield, there is a focus on team work. 
+            Many assignments were completed as a team with quality of team work playing a factor in grading a student.
+          </p>
+          </div>
+          <div>
+            <h2>Richmond School & Sixth Form College</h2>
+            <p>
+              Achieved A-levels in maths, physics and computer science (A, A, B respectively) and an AS in French (B). For GCSE, 
+               A* was achieved for maths, triple science, computer science and French. Additionaly, an A, 3 Bs and a C were met.
+            </p>
+          </div>
+        </section>
+      </div>
+      <div id="about">
+        <section id="display">
+          <h1>A bit more about me</h1>
+          <p>Outside of computer science, I enjoy music. Whether it be learning, playing or simply listening, music entertains me. 
+            My favourite instruments to play are piano and guitar. I feel I am my best self when I keep up with my fitness. Some of my favourite exercises are jogging, swimming and Muay Thai.
+          </p>
+        </section>
+      </div>
+	
+	
+</body>
+</div>
+
+<footer>
+  <div id="contact">
+    <section>
+      <h1>Contact</h1>
+      <p>Email: mgcross1@sheffield.ac.uk, crossmattias@gmail.com</p>
+      <p>Mob: +44 7713804567</p>
+    </section>
+  </div>
+	<section id="socialmedialinks">
+        <div class= "container">
+          <div class="icons">
+            <a href="https://www.linkedin.com/in/mattias-cross-25370b196/"><i class="fab fa-linkedin"></i></a>
+          </div>
+          <div class="icons">
+            <a href="https://www.researchgate.net/profile/Mattias-Cross"><i class="fab fa-researchgate"></i></a>
+          </div>
+          <div class="icons">
+            <a href="https://github.com/Mattias421"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+    </section>
+    <p>Mattias Cross 2018 - 2022</p>
+</footer>
+</html>
