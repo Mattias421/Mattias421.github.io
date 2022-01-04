@@ -77,7 +77,8 @@ strong, span {
 
 header {
   background: #35424a;
-  color: #3d3d3f;
+  /* color: #3d3d3f; */
+  color: #ffffff;
   padding-top: 30px;
   min-height: 70px;
   border-bottom: #fff 3px solid;
